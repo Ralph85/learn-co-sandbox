@@ -1,6 +1,3 @@
-require "Example/version"
-
-module Example
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "Example/version"
+require_relative "cli"
+CLI.new.start

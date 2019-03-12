@@ -1,18 +1,18 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "Example/version"
+require "Games_we_love/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "Example"
-  spec.version       = Example::VERSION
+  spec.name          = "Games_we_love"
+  spec.version       = GamesWeLove::VERSION
   spec.authors       = ["'Ralph Saint Albord'"]
   spec.email         = ["'ralph.saintalbord@yahoo.com'"]
 
-  spec.summary       = %q{b}
-  spec.description   = %q{fed}
+  spec.summary       = %q{a}
+  spec.description   = %q{fbi}
   spec.homepage      = "https://github.com/Ralph85/Example.git"
-
+ 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
     spec.metadata["homepage_uri"] = spec.homepage
     spec.metadata["source_code_uri"] = "https://github.com/Ralph85/Example.git"
-
+   
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."

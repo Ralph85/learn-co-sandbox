@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require_relative '../config/env'
+require_relative '../lib/games_we_love.rb'

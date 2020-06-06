@@ -1,3 +1,4 @@
-require_relative "games_we_love/version"
 require_relative "cli"
-CLI.new.play
+require_relative "../lib/Scraper.rb"
+require 'CLI.play'
+puts "test logger"
